@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TagPet</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Rockwell';
+
+        }
+
+        .container {
+            width: 1366px;
+            margin: auto;
+        }
+
+        .topo {
+            width: 1366px;
+            height: 604px;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+
+        }
+
+        .barra_abaixo {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+            width: 1366px;
+            height: 25px;
+        }
+
+        .logo {
+
+            float: left;
+        }
+
+        .logo img {
+            width: 216px;
+            height: 63px;
+        }
+
+        .menu ul {
+            float: right;
+            width: 620px;
+            list-style-type: none;
+            padding: 10px;
+            margin-right: 30px;
+            text-transform: uppercase;
+            /*mesmo n estando em maiúsculo (Home) ele aparece em maiusculo (HOME) mas o leitor lê normalmente (home e não como uma sigla H O M E)*/
+        }
+
+        .menu li {
+
+            display: inline;
+            font-size: 28px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .menu {
+            height: 60px;
+
+        }
+
+        .menu a {
+            color: #FD0000;
+            text-decoration: none;
+        }
+
+        .banner {
+            width: 100%;
+            height: 100%;
+            background: url('imagem/banner_png.png');
+            background-size: cover;
+            background-position: center;
+            font-size: 31px;
+        }
+
+        .banner p {
+            position: absolute;
+            top: 170px;
+            left: 400px;
+            font-weight: bold;
+        }
+
+        section {
+            margin-top: 120px;
+        }
+
+        #tagpet {
+            text-align: center;
+        }
+
+        #tagpet h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 1px 0 0 #FC0303, -1px 0 0 #FC0303, 0 1px 0 #FC0303, 0 -1px 0 #FC0303, 1px 1px #FC0303, -1px -1px 0 #FC0303, 1px -1px 0 #FC0303, -1px 1px 0 #FC0303;
+        }
+
+        #tagpet p {
+            margin: auto;
+            margin-bottom: 20px;
+            font-size: 21px;
+            text-align: left;
+        }
+
+        #tagpet img {
+            text-align: center;
+            width: 20%;
+            height: 20%;
+
+        }
+
+        #tagpet h3 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .alinhar {
+            height: 100px;
+            width: 1100px;
+            text-align: left;
+        }
+
+        .vantagem {
+            width: 1100px;
+            margin: 20px auto 0px auto;
+        }
+
+        .vantagem h4 {
+            text-align: center;
+            font-size: 21px;
+        }
+
+        .vantagem-item {
+            width: 430px;
+            height: 102px;
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 70px;
+
+        }
+
+        .vantagem img {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .rodape {
+            width: 1366px;
+            height: 100px;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+            color: #FF0000;
+            display: inline-block;
+            text-align: center;
+            padding: 10px;
+
+
+        }
+
+        .rodape ul {
+            list-style-type: none;
+            /*remover marcador*/
+        }
+
+        .rodape-item {
+            display: inline-block;
+            margin-right: 100px
+        }
+
+        .ma-l-g {
+            margin-left: 43px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="topo">
+
+            <nav class="menu">
+
+                <div class="logo">
+
+                    <img src="imagem/logotagpet1.png" alt="logotipo TagPet">
+                </div>
+
+                <ul>
+
+                    <li>
+                        <a href="tagpet.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Comprar</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <div class="banner">
+                <p>Quem ama,
+                    <br> protege com Tag Pet.</p>
+            </div>
+
+            <div class="barra_abaixo"></div>
+
+        </header>
+
+        <main>
+
+            <section id="tagpet">
+
+                <h2>TAG PET</h2>
+                <p class="alinhar">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commo- do consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum."
+                </p>
+                <img src="imagem/tag_pet.jpg" alt="pingente tagpet">
+                <h3>Como Funciona</h3>
+                <p class="alinhar">O pingente TagPet possui um código de barras 2d(QrCode), pode ser feita a leitura deste código por um celular
+                    carregando imediatamente os dados do pet e do seu proprietário. Caso haja dificuldade de leitura pela
+                    pessoa que achou o pet, o pingente conta também com número da nossa central de atendimento e a URL com
+                    os dados do pet.</p>
+
+                <div class="vantagem">
+                    <!--container-->
+                    <div class="vantagem-item">
+                        <h4>Vantagens</h4>
+                        <p>Facilidade de uso.
+                            <br> Rápida atualização dos dados do pet e do proprietário.
+                            <br> Geolocalização.
+                            <br>
+                        </p>
+                    </div>
+                    <div class="vantagem-item ma-l-g">
+                        <h4>Acesse de qualquer local</h4>
+                        <p>TagPet pode ser acessado do seu smartphone, pc, tablet de forma simples, você tem acesso as informações
+                            do seu pet quando e onde precisar.</p>
+                    </div>
+                    <div class="vantagem-item">
+                        <h4>Controle de vida do Pet</h4>
+                        <p>Controle todo o histórico de vida do seu Pet, cadastre suas vacinas, controle de peso, cio, vermifugação,
+                            exames e muitos mais.</p>
+                    </div>
+                    <div class="vantagem-item ma-l-g">
+                        <h4>Agenda</h4>
+                        <p>Controle a agenda do seu pet referente a exames, vacinas, receba avisos por sms, não deixe passar
+                            nada, saúde é coisa séria.</p>
+                    </div>
+                    <div>
+                        <img src="imagem/exemplos.png" alt="cachorro com o pingente tagpet">
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="rodape">
+
+                <div class="rodape-item">
+                    <h4>Para você</h4>
+                    <ul>
+                        <li>Login</li>
+                        <li>Cadastro</li>
+                        <li>Comprar</li>
+                    </ul>
+                </div>
+
+                <div class="rodape-item ma-l-g">
+                    <h4>Sobre Nós</h4>
+                    <ul>
+                        <li>Empresa</li>
+                        <li>Parceiros</li>
+                        <li>Termos de Uso</li>
+                    </ul>
+                </div>
+
+                <div class="rodape-item">
+                    <h4>Ajuda</h4>
+                    <ul>
+                        <li>Como usar</li>
+                        <li>Perguntas Frequentes</li>
+                        <li>
+                            <br>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rodape-item ma-l-g">
+                    <h4>Redes Sociais</h4>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Google +</li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
